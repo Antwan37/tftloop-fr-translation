@@ -1,22 +1,22 @@
 {
   "name": "tftloop-fr-translation",
   "title": "Tales From The Loop - Traduction Française",
-  "description": "Module de traduction du système Tales From The Loop en Français, basé sur Babele.",
-  "version": "[LA VERSION DE TON MODULE par exemple 0.1]",
-  "minimumCoreVersion" : "[LA VERSION MIN DE FOUNDRY COMPATIBLE, en ce moment c'est généralement 0.8.6]",
-  "compatibleCoreVersion": "[LA VERSION DE FOUNDRY ACTUELLE, 0.8.9]",
+  "description": "Module de traduction du Module Tales From The Loop -Official RuleBook- , basé sur Babele.",
+  "version": "0.0.2",
+  "minimumCoreVersion" : "0.8.6",
+  "compatibleCoreVersion": "0.8.9",
   "author": "Antwan",
   "dependencies": [
     {
       "name": "tftloop",
       "type": "system",
-      "version": "[LA VERSION DE TFLOOP QUE TU VEUX MODER]"
+      "version": "1.0.4"
     },
     {
       "name": "babele",
       "type": "module",
       "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json",
-      "version": "[LA VERSION DE BABELE]"
+      "version": "2.0.6"
     }
   ],
   "esmodules": [
@@ -31,7 +31,7 @@
     "path": "lang/fr.json"
   }],
   "system": "tftloop",
-  "systemVersion": "[LA VERSION DE TFLOOP QUE TU VEUX MODER]",
+  "systemVersion": "1.0.4",
   "url": "https://github.com/mon-compte/mon-repository",
   "manifest": "https://github.com/mon-compte/mon-repository/raw/main/module.json",
   "download": "https://github.com/mon-compte/mon-repository/archive/refs/heads/main.zip"
